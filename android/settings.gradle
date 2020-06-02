@@ -1,0 +1,9 @@
+rootProject.name = 'RemoveChinaApps'
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-intent-launcher'
+project(':react-native-intent-launcher').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-intent-launcher/android')
+include ':react-native-android-installed-apps'
+project(':react-native-android-installed-apps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-installed-apps/android')
+
+include ':app'
