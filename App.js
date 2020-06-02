@@ -216,24 +216,6 @@ export default class App extends Component<Props> {
         IconRight={this.IconRight}
       />
         {content}
-        {/* {} */}
-        {/* <TermsAndConditionsBottomSheet ref={termsAndConditionsBottomSheetRef} /> */}
-        {/* <ConfirmationModal
-          label='Confirm'
-          title='Terms and Conditions'
-          description={`By clicking confirm you agree to our terms and conditions`}
-          color={ThemeStatic.accent}
-          isVisible={termsConfirmationModal}
-          toggle={termsConfirmationToggle}
-          onConfirm={processNewUser}
-        /> */}
-        {/* <Modal
-        animationType="slide"
-        transparent={true}
-        visible={this.state.modalVisible}
-        onRequestClose={() => {
-          // Alert.alert("Modal has been closed.");
-        }}
       >
         <View style={styles.centeredView}>
           <View style={styles.modalView}>
@@ -259,7 +241,6 @@ export default class App extends Component<Props> {
   }
 
   componentDidMount() {
-    // RNAndroidInstalledApps.getApps()
     // this.scanApps()
     SplashScreen.hide();
   }
@@ -323,24 +304,6 @@ export default class App extends Component<Props> {
 
 }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     // justifyContent: 'center',
-//     // alignItems: 'center',
-//     backgroundColor: '#F5FCFF',
-//   },
-//   welcome: {
-//     fontSize: 20,
-//     textAlign: 'center',
-//     margin: 10,
-//   },
-//   instructions: {
-//     textAlign: 'center',
-//     color: '#333333',
-//     marginBottom: 5,
-//   },
-// });
 
 const styles = StyleSheet.create({
   container: {
